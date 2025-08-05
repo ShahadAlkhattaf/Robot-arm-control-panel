@@ -1,6 +1,5 @@
 <?php
 
-// Prevent any accidental whitespace or errors from outputting HTML
 ob_start();
 
 header('Content-Type: application/json');
@@ -60,4 +59,5 @@ if ($stmt->execute()) {
 $stmt->close();
 mysqli_close($conn);
 ob_end_flush(); 
+
 ?>
