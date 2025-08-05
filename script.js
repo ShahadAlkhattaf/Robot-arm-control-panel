@@ -60,7 +60,7 @@ function loadPoses() {
         });
 }
 
-// Load current run pose (from run table)
+// Load current run
 function loadRunPose() {
     fetch('get_run_pose.php')
         .then(res => res.text())
@@ -179,4 +179,5 @@ document.addEventListener('DOMContentLoaded', () => {
     // Auto-refresh
     setInterval(loadPoses, 30000);      // Every 30 seconds
     setInterval(loadRunPose, 10000);    // Every 10 seconds
+
 });
