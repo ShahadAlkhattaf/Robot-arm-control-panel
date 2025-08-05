@@ -87,9 +87,8 @@ A web-based control system for managing a robotic arm using PHP, MySQL, HTML/CSS
 
 ---
 
-## Installation & Setup
+## Database Setup
 
-1. **Database Setup:**  
    Create a MySQL database `robotservostatus` and import the following tables:
 
    ```sql
@@ -113,3 +112,11 @@ A web-based control system for managing a robotic arm using PHP, MySQL, HTML/CSS
       servo6 INT NOT NULL
    );
    INSERT INTO run (status, servo1, servo2, servo3, servo4, servo5, servo6) VALUES (0, 90, 90, 90, 90, 90, 90);
+```
+
+---
+
+## ScreenShot
+
+<img src="screenshot1" width= 400>
+<img src="screenshot2" width= 400>
