@@ -1,6 +1,4 @@
 <?php
-// update_status_set_run.php
-// Called when user clicks "Run" — saves servo values and sets status=1
 
 header('Content-Type: application/json');
 
@@ -43,4 +41,5 @@ if (mysqli_query($conn, $sql)) {
 }
 
 mysqli_close($conn);
+
 ?>
