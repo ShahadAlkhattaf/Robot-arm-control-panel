@@ -1,5 +1,4 @@
 <?php
-// get_run_pose.php
 
 header('Content-Type: text/plain');
 
@@ -25,4 +24,5 @@ if ($pose) {
 }
 
 mysqli_close($conn);
+
 ?>
