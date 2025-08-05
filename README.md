@@ -1,6 +1,6 @@
 # Robot Arm Control Panel
 
-A web-based control system for managing a robotic arm using PHP, MySQL, HTML/CSS/JavaScript, and Arduino (ESP32). The system allows users to control servo motors via a web interface, save poses, and trigger movements — with an Arduino that reads commands from a local server.
+A web-based control system for managing a robotic arm using PHP, MySQL, HTML/CSS/JavaScript. The system allows users to control servo motors via a web interface, save poses, and trigger movements with an Arduino sketch that reads commands from a local server.
 
 ---
 
@@ -80,7 +80,7 @@ A web-based control system for managing a robotic arm using PHP, MySQL, HTML/CSS
    - Connects to the local Wi-Fi network  
    - Polls `get_run_pose.php` every 2 seconds  
    - When `status=1`, parses servo angles and moves the servos accordingly  
-   - After execution, updates `status=0` using a separate API call
+   - After execution, updates `status=0` 
 
 5. **Execution Status:**  
    The UI polls the server to update the current execution status (Running or Stopped).
