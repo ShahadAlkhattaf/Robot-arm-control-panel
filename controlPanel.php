@@ -1,5 +1,4 @@
 <?php
-// controlPanel.php
 
 $conn = mysqli_connect("localhost", "root", "", "robotservostatus");
 if (!$conn) die("DB connection failed");
@@ -99,8 +98,8 @@ mysqli_close($conn);
 
   </div>
 
-  <!-- External JavaScript -->
   <script src="script.js"></script>
 
 </body>
+
 </html>
