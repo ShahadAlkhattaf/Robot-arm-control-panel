@@ -1,5 +1,5 @@
 <?php
-// Delete_pose.php
+
 $id = $_GET['id'] ?? null;
 if (!$id || !is_numeric($id)) {
     die("Invalid ID");
@@ -13,4 +13,5 @@ $stmt->close();
 mysqli_close($conn);
 
 header("Location: controlPanel.php");
+
 ?>
