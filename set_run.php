@@ -1,5 +1,5 @@
 <?php
-// set_run.php
+
 $conn = mysqli_connect("localhost", "root", "", "robotservostatus");
 if (!$conn) die("Error");
 
@@ -23,4 +23,5 @@ $stmt->bind_param("iiiiii",
 $stmt->execute();
 $stmt->close();
 mysqli_close($conn);
+
 ?>
