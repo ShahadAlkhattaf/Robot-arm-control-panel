@@ -16,14 +16,11 @@ A web-based control system for managing a robotic arm using PHP, MySQL, HTML/CSS
 
 - `Delete_pose.php`  
   Deletes a saved pose by its ID and redirects back to the control panel.
-    
-- `set_run.php`  
-  Another endpoint to update the run pose and set status to 1 (alternative implementation).
 
 - `get_run_pose.php`  
   Returns the current pose and execution status in plain text format for the Arduino client.
 
-- `update_status_set_run.php`  
+- `update_status.php`  
   Updates the current run pose and sets `status=1` to signal the Arduino to execute the pose.
 
 - `script.js`  
