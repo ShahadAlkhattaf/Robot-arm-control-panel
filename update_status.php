@@ -26,7 +26,7 @@ $servo6 = max(0, min(180, $servo6));
 
 // Update run table
 $sql = "UPDATE run SET 
-    status = 1,
+    status = 0,
     servo1 = $servo1,
     servo2 = $servo2,
     servo3 = $servo3,
@@ -43,3 +43,4 @@ if (mysqli_query($conn, $sql)) {
 mysqli_close($conn);
 
 ?>
+
