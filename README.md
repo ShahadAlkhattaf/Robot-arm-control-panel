@@ -18,8 +18,11 @@ A web-based control system for managing a robotic arm using PHP, MySQL, HTML/CSS
 - `get_run_pose.php`  
   Returns the current pose and execution status in plain text format for the Arduino client.
 
+- `set_run.php`  
+  Updates the run table to signal the Arduino to execute the pose.
+
 - `update_status.php`  
-  Updates the current run pose and sets `status=1` to signal the Arduino to execute the pose.
+  Updates the current run pose and sets `status=0` to signal the Arduino to execute the pose.
 
 - `script.js`  
   Client-side JavaScript handling slider updates, fetching/saving poses, running poses, deleting poses, and updating UI.
